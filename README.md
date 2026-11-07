@@ -15,20 +15,20 @@ O programa faz esse trabalho sozinho:
 
 ## Resultado
 
-### Comparação: conferência manual
-Planilha preenchida à mão em cerca de 13 minutos, com os documentos incompletos marcados em vermelho:
+## Resultado
 
-![Planilha preenchida manualmente](doc/planilha_manual.png)
+Teste com 10 documentos fictícios (3 incompletos, todos identificados corretamente):
+
+- Conferência manual: cerca de 13 minutos.
+- SmartDocs AI: 10 a 30 segundos (mais de 25 vezes mais rápido; o tempo varia conforme a resposta da API).
 
 ### Comparação: conferência manual
+
 Planilha preenchida à mão em cerca de 13 minutos, com os documentos incompletos marcados em vermelho:
 
 ![Planilha preenchida manualmente](doc/planilha_manual.png)
 
 Na digitação manual, duas datas de desligamento foram copiadas erradas (documentos 04 e 05), um erro de cópia que o programa evita.
-
-- - Testado com 10 documentos fictícios, sendo 3 incompletos, todos identificados corretamente. (2 completos e 1 incompleto). O incompleto foi identificado corretamente, apontando `cpf` e `valor_liquido`.
-- - Teste com 10 documentos fictícios (3 incompletos): conferência manual em cerca de 13 minutos vs 10 a 30 segundos com o SmartDocs AI (mais de 25 vezes mais rápido; o tempo varia conforme a resposta da API). Os 3 incompletos foram identificados corretamente.: [PREENCHER] manualmente vs [PREENCHER] com o SmartDocs AI.
 
 ## Tecnologias
 Python, pdfplumber, openpyxl, Google Gemini API.
