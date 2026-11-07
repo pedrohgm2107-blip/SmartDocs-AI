@@ -1,0 +1,1 @@
+python src/gerar_lote.py
