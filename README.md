@@ -1,5 +1,5 @@
 # SmartDocs AI
-
+![Resultado do SmartDocs AI](docs/resultado.png)
 Automação que lê documentos de RH em PDF, extrai os dados com IA (Gemini), organiza tudo em uma planilha Excel e marca os documentos incompletos.
 
 ## Problema
